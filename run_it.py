@@ -9,6 +9,7 @@ urls = [
     'https://www.amazon.ca/dp/B08YGK9KWC',
     'https://www.amazon.ca/dp/B08YGH6LHY',
     'https://www.amazon.ca/dp/B08YGFM4SQ',
+    'https://www.amazon.com//Breton-Dare-Cracker-Variety-Pack/dp/B08V3XBS8Z',
 ]
 glance_view_count = 0
 total_views= 0
@@ -85,6 +86,6 @@ def run():
             print('\n')
 
 
-for _ in range(10):
+for _ in range(100):
     t = threading.Thread(target=run)
     t.start()
