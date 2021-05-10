@@ -86,6 +86,6 @@ def run():
             print('\n')
 
 
-for _ in range(100):
+for _ in range(5):
     t = threading.Thread(target=run)
     t.start()
