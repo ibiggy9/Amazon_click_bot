@@ -18,6 +18,7 @@ successful_clicks = 0
 failed_clicks = 0
 click_count = 0
 '''
+Change
 Baseline Weekly Stats:
 Glance views = 196  
 Fast Track Glance View = 3.57%
